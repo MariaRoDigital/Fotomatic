@@ -1,0 +1,424 @@
+/* for all content */
+@media only screen and (max-width: 768px) {
+  .main-content {
+    top: 2.5625rem;
+  }
+}
+
+.container {
+  max-width: 1536px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* 2xl */
+@media (max-width: 1536px) {
+  .container {
+    min-width: 1280px;
+  }
+
+  footer {
+    display: flex;
+    align-items: center;
+  }
+
+  footer .content {
+    padding: 0;
+    display: flex;
+    width: 100%;
+  }
+}
+
+/* xl */
+@media (max-width: 1280px) {
+  .container {
+    min-width: 1024px;
+  }
+
+  #features-section {
+    padding: 2rem 0.5%;
+  }
+
+  .feature {
+    height: 37.6875rem;
+  }
+
+  .feature .content {
+    padding: 0 1.5rem;
+    text-align: left;
+  }
+
+  #features-section .even {
+    margin-left: .4rem;
+  }
+
+  .feature .image-container {
+    padding: 1.5rem;
+    margin: auto;
+  }
+
+  #quotes-section .content {
+    padding: 5rem;
+    text-align: left;
+  }
+
+  #quotes-section .quote {
+    width: 80%;
+  }
+
+  footer {
+    display: flex;
+    align-items: center;
+    height: 2.15625rem;
+  }
+
+  footer .content {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  .container {
+    min-width: 768px;
+  }
+}
+
+/* md */
+/* tablet */
+@media (max-width: 768px) {
+
+  .container {
+    min-width: 640px;
+  }
+
+  main {
+    top: 4.3125rem;
+  }
+
+  /* tablet header */
+  header {
+    height: 4.3125rem;
+  }
+
+  header .desktop {
+    display: flex;
+    align-items: center;
+  }
+
+  .desktop span .button {
+    display: block;
+    margin-left: 3.5rem;
+  }
+
+  .desktop .button {
+    background-color: #9DC20B;
+    padding: 0.1875rem 0.5rem;
+  }
+
+  /* tablet sign up */
+  #sign-up-section {
+    align-items: center;
+    justify-content: center;
+    height: 28rem;
+    background-position: center;
+  }
+
+  #sign-up-cta {
+    position: static;
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    border: none;
+  }
+
+  #sign-up-cta .content {
+    margin-top: 0;
+  }
+
+  #sign-up-cta .email {
+    display: none;
+  }
+
+  #sign-up-cta h1 {
+    font-size: 3.125rem;
+  }
+
+  #sign-up-cta h2 {
+    font-size: 2.25rem;
+  }
+
+  /* tablet feature */
+  #features-section {
+    padding: 1rem;
+  }
+
+  .feature {
+    margin: 0;
+    height: 33.4375rem;
+  }
+
+  .feature .normal {
+    display: none;
+  }
+
+  .feature .resize {
+    display: block;
+  }
+
+  .feature .image-container {
+    padding: 1rem;
+    margin: auto;
+  }
+
+  #features-section .even {
+    margin-left: 1rem;
+  }
+
+  .feature .content {
+    padding: 0 1rem;
+  }
+
+  .feature h2 {
+    font-size: 1.75rem;
+    line-height: 1.3;
+    font-weight: bold;
+  }
+
+  .feature h3 {
+    font-size: .875rem;
+    line-height: 1.4;
+    font-weight: normal;
+  }
+
+  /* tablet filters */
+  #filters-section {
+    padding: 0;
+  }
+
+  #filters-section .content {
+    padding-top: 3.5rem;
+  }
+
+  #filters-section .content h2 {
+    font-size: 2rem;
+    line-height: 1.3;
+  }
+
+  #filters-section .content h3 {
+    font-size: .875rem;
+    line-height: 1.4;
+    font-weight: lighter;
+  }
+
+  #filters-section .images-container {
+    padding: 0;
+  }
+
+  #filters-section .extra {
+    display: block;
+  }
+
+  /* tablet quotes */
+  #quotes-section .content {
+    display: flex;
+    align-items: flex-start;
+    padding: 3.5rem 0.9375rem;
+  }
+
+  #quotes-section .quote {
+    font-size: 2rem;
+    line-height: 1;
+    text-align: left;
+  }
+
+  #quotes-section .quote-citation {
+    display: block;
+    padding-top: .25rem;
+  }
+
+  /* tablet footer */
+  footer .content {
+    font-size: .75rem;
+  }
+}
+
+/* sm */
+@media (max-width: 640px) {
+  .container {
+    min-width: 475px;
+  }
+
+  header .mobile .pad-left {
+    padding-left: 4.25rem;
+  }
+}
+
+/* for wee phones and older phones */
+@media (max-width: 475px) {
+  .container {
+    min-width: 100%;
+  }
+
+  header .desktop {
+    display: none;
+  }
+
+  header .mobile {
+    display: flex;
+    justify-content: center;
+    height: 3rem;
+  }
+
+  header .mobile .logo {
+    padding: 0;
+  }
+
+  header .content {
+    padding: 0;
+    justify-content: center;
+  }
+
+  .mobile .pad-left {
+    padding-left: 3.5rem;
+  }
+
+  header .mobile img {
+    width: 1.75rem;
+  }
+
+  header .mobile li,
+  header .mobile span {
+    display: flex;
+    align-items: center;
+  }
+
+  header .mobile .button {
+    display: block;
+    background-color: #9DC20B;
+    padding: 0.1875rem 0.5rem;
+    font-size: 1.25rem;
+  }
+
+  /* mobile sign up */
+  #sign-up-section {
+    background-position: right;
+    height: 19rem;
+  }
+
+  #sign-up-cta {
+    margin: 0;
+    padding: 0;
+  }
+
+  #sign-up-cta .content {
+    width: 100%;
+  }
+
+  #sign-up-cta .striking {
+    font-size: 2rem;
+  }
+
+  /* mobile features section */
+  #features-section {
+    display: block;
+    background-color: white;
+    padding: 0;
+  }
+
+  .feature {
+    padding: 1rem 1rem 0;
+    height: 23.75rem;
+    height: 19rem;
+  }
+
+  #features-section .even {
+    margin-left: 0;
+  }
+
+  #features-section .odd {
+    background-color: #f3f3f3
+  }
+
+  .feature .image-container {
+    padding: 0;
+    width: 100%;
+    height: 60%;
+  }
+
+  .feature .resize {
+    display: none;
+  }
+
+  .feature .normal {
+    display: block;
+  }
+
+  .feature .content {
+    text-align: center;
+    line-height: 1.4;
+    margin: auto;
+    padding: 1rem 0 1.875rem;
+  }
+
+  .feature h2 {
+    font-size: 1.125rem;
+  }
+
+  /* mobile filters section */
+  #filters-section .extra {
+    display: none;
+  }
+
+  #filters-section .content {
+    width: 80%;
+    margin: auto;
+    padding: 1.75rem 0;
+    margin: auto;
+  }
+
+  #filters-section .content h2 {
+    font-size: 1.125rem;
+    padding-bottom: 1rem;
+  }
+
+  /* mobile quote section */
+  #quotes-section {
+    display: flex;
+    justify-content: center;
+    height: 14rem;
+  }
+
+  #quotes-section .content {
+    flex-direction: column;
+    font-size: 1.5rem;
+    align-items: center;
+    padding: 3rem 0;
+  }
+
+  #quotes-section .quote {
+    width: 90%;
+    padding-right: 0;
+    text-align: center;
+    line-height: 1.4;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+
+  #quotes-section .quote-citation {
+    padding: 0;
+  }
+
+  /* mobile footer */
+  footer {
+    height: 1rem;
+    padding: 1rem 0.75rem;
+  }
+
+  footer .content {
+    font-size: .625rem;
+  }
+}
