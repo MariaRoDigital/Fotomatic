@@ -109,9 +109,13 @@
     align-items: center;
   }
 
+  nav li {
+    padding-left: 1.5rem;
+  }
+
   .desktop span .button {
     display: block;
-    margin-left: 3.5rem;
+    margin-left: 1.25rem;
   }
 
   .desktop .button {
@@ -130,9 +134,9 @@
   #sign-up-cta {
     position: static;
     width: auto;
-    height: auto;
     background-color: transparent;
     border: none;
+    padding: 0;
   }
 
   #sign-up-cta .content {
@@ -246,16 +250,7 @@
   }
 }
 
-/* sm */
-@media (max-width: 640px) {
-  .container {
-    min-width: 475px;
-  }
 
-  header .mobile .pad-left {
-    padding-left: 4.25rem;
-  }
-}
 
 /* for wee phones and older phones */
 @media (max-width: 475px) {
@@ -267,19 +262,30 @@
     display: none;
   }
 
-  header .mobile {
+  header .mobile{
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 3rem;
+    width: 100%;
   }
 
-  header .mobile .logo {
-    padding: 0;
+  header .mobile ul {
+    width: 100%;
+    justify-content: space-evenly;
   }
 
   header .content {
     padding: 0;
-    justify-content: center;
+  }
+
+  header a {
+    display: flex;
+    align-items: center;
+  }
+
+  .mobile .logo {
+    padding: 0;
   }
 
   .mobile .pad-left {
@@ -288,12 +294,6 @@
 
   header .mobile img {
     width: 1.75rem;
-  }
-
-  header .mobile li,
-  header .mobile span {
-    display: flex;
-    align-items: center;
   }
 
   header .mobile .button {
@@ -306,7 +306,7 @@
   /* mobile sign up */
   #sign-up-section {
     background-position: right;
-    height: 19rem;
+    height: 27rem;
   }
 
   #sign-up-cta {
@@ -327,12 +327,12 @@
     display: block;
     background-color: white;
     padding: 0;
+    width: 100%;
   }
 
   .feature {
     padding: 1rem 1rem 0;
-    height: 23.75rem;
-    height: 19rem;
+    height: 26rem;
   }
 
   #features-section .even {
@@ -361,7 +361,8 @@
     text-align: center;
     line-height: 1.4;
     margin: auto;
-    padding: 1rem 0 1.875rem;
+    padding: 1.25rem 0 1.875rem;
+    width: 60%;
   }
 
   .feature h2 {
@@ -400,11 +401,10 @@
   }
 
   #quotes-section .quote {
-    width: 90%;
-    padding-right: 0;
+    width: 70%;
+    padding: 1.25rem 0 1rem;
     text-align: center;
     line-height: 1.4;
-    padding-bottom: 1rem;
     font-size: 1.5rem;
   }
 

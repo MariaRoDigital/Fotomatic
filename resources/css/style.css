@@ -50,17 +50,17 @@ header .content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.875rem;
+  padding: 0 1.875rem;
 }
 
 header .logo {
-  flex: 1;
   font-size: 1.5rem;
   font-family: "Roboto Mono", sans-serif;
 }
 
 header nav ul {
   display: flex;
+  align-items: center
 }
 
 nav li {
@@ -72,7 +72,6 @@ nav a {
   line-height: 1.6;
   font-size: 1rem;
   color: #4a4a4a;
-  display: flex;
   align-items: center;
 }
 
@@ -144,7 +143,7 @@ header .content .button{
 
 #sign-up-cta .button {
   margin-top: 1.625rem;
-  padding: 1.25rem 7.25rem;
+  padding: 1.25rem;
 }
 
 /* mobile sign-up */
